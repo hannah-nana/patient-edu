@@ -1,11 +1,17 @@
 import streamlit as st
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import json
+import base64
+
+# Base64로 인코딩된 JSON 키 파일을 secrets에서 가져오기
+json_str = st.secrets["GOOGLE_CREDENTIALS"]
+json_data = json.loads(base64.b64decode(json_str))
 
 # Google Sheets API 및 Google Drive API 설정
 scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/auth/spreadsheets',
          "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name(r"C:\Users\강경임\Desktop\rich-implement-423610-b0-ef3fdf8687ea.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_dict(json_data, scope)
 client = gspread.authorize(creds)
 
 # Google Sheets 연결
