@@ -5,7 +5,7 @@ import json
 import base64
 
 # Base64로 인코딩된 JSON 키 파일을 secrets에서 가져오기
-json_str = st.secrets["GOOGLE_CREDENTIALS"]
+json_str = st.secrets["general"]["GOOGLE_CREDENTIALS"]
 json_data = json.loads(base64.b64decode(json_str))
 
 
