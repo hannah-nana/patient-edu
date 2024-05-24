@@ -20,7 +20,7 @@ st.sidebar.page_link("pages/10_커뮤니티.py", label="🌍 커뮤니티")
 
 
 
-st.title("🤔 뇌졸중 바로알기 🤔")
+st.title("🤔 뇌졸중 바로알기")
 st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)  # 공간 추가
 
 st.balloons()
