@@ -83,7 +83,7 @@ if st.session_state.show_form:
 st.markdown("---")
 
 # 게시물 표시 및 수정/삭제 기능 추가
-st.subheader("게시물 목록", divider="violet")
+st.subheader("게시물 목록", divider="rainbow")
 
 st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)  # 공간 추가
 

@@ -49,7 +49,7 @@ st.image('./static/cure1.jpeg', caption='혈전용해제')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.header('동맥 내 혈전용해술', divider='violet')
+st.header('동맥 내 혈전용해술', divider='rainbow')
 with st.container(border=True):
     st.write(":blue[증상 발생 후 6~24시간 이내에 시행!]")
 with st.container(border=True):

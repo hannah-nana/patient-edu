@@ -26,7 +26,7 @@ st.title("퇴원 후 자가관리")
 
 st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)  # 공간 추가
 
-st.header('정맥 내 혈전용해제', divider='violet')
+st.header('정맥 내 혈전용해제', divider='rainbow')
 with st.container(border=True):
     st.write(
         """
@@ -37,13 +37,13 @@ with st.container(border=True):
     )
 
 
-st.subheader('뇌졸중 약물의 종류', divider='orange')
+st.subheader('뇌졸중 약물의 종류', divider='red')
 st.image('./static/self1.png', caption='약물의 종류')
 st.image('./static/self2.png', caption='약물 주의사항')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('항혈소판제', divider='orange')
+st.subheader('항혈소판제', divider='red')
 with st.container(border=True):
     st.write(
         """
@@ -56,7 +56,7 @@ st.image('./static/self4.png', caption='항혈소판제 복용 시 주의사항'
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('항응고제', divider="orange")
+st.subheader('항응고제', divider="red")
 with st.container(border=True):
     st.write(
         """
@@ -70,7 +70,7 @@ st.image('./static/self6.png', caption='와파린 복용 시 주의사항')
 st.image('./static/self7.png', caption='비-비타민K 길항제')
 
 
-st.header('휴유증과 재활', divider='violet')
+st.header('휴유증과 재활', divider='rainbow')
 with st.container(border=True):
     st.write(
         """
@@ -79,7 +79,7 @@ with st.container(border=True):
         """
     )
 
-st.subheader('뇌졸중 후유증', divider="orange")
+st.subheader('뇌졸중 후유증', divider="red")
 st.image('./static/self8.png',caption="뇌졸중의 후유증")
 with st.container(border=True):
     st.write(
@@ -92,7 +92,7 @@ with st.container(border=True):
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('뇌졸중 재활', divider="orange")
+st.subheader('뇌졸중 재활', divider="red")
 with st.container(border=True):
     st.write(
         """
@@ -102,7 +102,7 @@ with st.container(border=True):
     )
 st.image('./static/self10.png',caption="뇌졸중의 재활치료")
 
-st.header('합병증 예방', divider='violet')
+st.header('합병증 예방', divider='rainbow')
 with st.container(border=True):
     st.write(
         """
@@ -113,7 +113,7 @@ with st.container(border=True):
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('뇌졸중 합병증별 예방법', divider="orange")
+st.subheader('뇌졸중 합병증별 예방법', divider="red")
 st.image('./static/after1.png')
 
 st.image('./static/self11.png',caption="욕창")

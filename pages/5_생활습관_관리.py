@@ -46,7 +46,7 @@ with st.container(border=True):
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.header('고혈압, 당뇨병, 이상지질혈증 관리', divider="orange")
+st.header('고혈압, 당뇨병, 이상지질혈증 관리', divider="red")
 with st.container(border=True):
     st.write(
         """
@@ -56,7 +56,7 @@ with st.container(border=True):
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('고혈압 관리', divider="orange")
+st.subheader('고혈압 관리', divider="red")
 with st.container(border=True):
     st.write(
         """
@@ -69,7 +69,7 @@ st.image('./static/life2.png', caption='정상 혈압 범위')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('당뇨병 관리', divider="orange")
+st.subheader('당뇨병 관리', divider="red")
 with st.container(border=True):
     st.write(
         """
@@ -82,7 +82,7 @@ st.image('./static/life4.png', caption='정상 혈당 범위')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('이상지질혈증 관리', divider="orange")
+st.subheader('이상지질혈증 관리', divider="red")
 with st.container(border=True):
     st.write(
         """
@@ -94,7 +94,7 @@ st.image('./static/life5.png')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.header('체중관리', divider='violet')
+st.header('체중관리', divider='rainbow')
 with st.container(border=True):
     st.write(
         """
@@ -105,14 +105,14 @@ with st.container(border=True):
         """
     )
 
-st.subheader('비만과 복부비만의 기준', divider="orange")
+st.subheader('비만과 복부비만의 기준', divider="red")
 st.image('./static/life6.png')
 st.image('./static/life7.png')
 
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.header('규칙적인 운동', divider='violet')
+st.header('규칙적인 운동', divider='rainbow')
 with st.container(border=True):
     st.write(
         """
@@ -126,19 +126,19 @@ st.image('./static/life10.png')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('뇌졸중 환자 운동 시 주의사항', divider="orange")
+st.subheader('뇌졸중 환자 운동 시 주의사항', divider="red")
 st.image('./static/life11.png')
 st.image('./static/life12.png')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.header('식이요법',divider='violet')
-st.subheader('뇌졸중 환자를 위한 식사지침',divider="orange")
+st.header('식이요법',divider='rainbow')
+st.subheader('뇌졸중 환자를 위한 식사지침',divider="red")
 st.image('./static/life13.png')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('소금섭취 줄이기',divider="orange")
+st.subheader('소금섭취 줄이기',divider="red")
 with st.container(border=True):
     st.write(
         """
@@ -151,14 +151,14 @@ st.image('./static/life15.png')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('콜레스테롤 낮추는 식사방법',divider="orange")
+st.subheader('콜레스테롤 낮추는 식사방법',divider="red")
 
 st.image('./static/life16.png')
 st.image('./static/life17.png')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.header('금연',divider='violet')
+st.header('금연',divider='rainbow')
 with st.container(border=True):
     st.write(
         """
@@ -171,7 +171,7 @@ with st.container(border=True):
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('금연을 위한 올바른 행동습관',divider="orange")
+st.subheader('금연을 위한 올바른 행동습관',divider="red")
 
 st.image('./static/life18.png')
 
@@ -189,7 +189,7 @@ st.image('./static/life19.png')
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.header('스트레스 관리', divider='violet')
+st.header('스트레스 관리', divider='rainbow')
 with st.container(border=True):
     st.write(
         """
@@ -200,6 +200,6 @@ with st.container(border=True):
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.subheader('뇌졸중 후 불안, 우욱 극복하는 법', divider="orange")
+st.subheader('뇌졸중 후 불안, 우욱 극복하는 법', divider="red")
 st.image('./static/life20.png')
 st.image('./static/life21.png')

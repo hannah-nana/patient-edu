@@ -37,7 +37,7 @@ st.markdown(
 
 st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)  # 공간 추가
 
-st.image('./static/together.jpg')
+st.image('./static/basic.png')
 
 
 

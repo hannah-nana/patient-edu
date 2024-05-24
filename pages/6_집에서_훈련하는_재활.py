@@ -25,13 +25,13 @@ st.title("집에서 훈련하는 재활")
 
 st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)  # 공간 추가
 
-st.header('옷 입기 & 옷 벗기', divider='violet')
+st.header('옷 입기 & 옷 벗기', divider='rainbow')
 VIDEO_URL_1 = "https://youtu.be/z2-XmK39lKI"
 st.video(VIDEO_URL_1)
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.header('자세변경하기, 이동하기', divider='violet')
+st.header('자세변경하기, 이동하기', divider='rainbow')
 VIDEO_URL_2 = "https://youtu.be/vKXSNsBqfX8"
 st.video(VIDEO_URL_2)
 
@@ -49,7 +49,7 @@ st.video(VIDEO_URL_6)
 
 st.divider()  # 👈 Draws a horizontal rule
 
-st.header('사킴장애 시 식사 훈련', divider='violet')
+st.header('사킴장애 시 식사 훈련', divider='rainbow')
 
 VIDEO_URL_7 = "https://youtu.be/73fT4XjLgaU"
 st.video(VIDEO_URL_7)

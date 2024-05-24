@@ -37,7 +37,7 @@ st.markdown(
 st.image('./static/risk_1.png', caption='뇌졸중의 위험요인')
 
 
-st.header('교정 불가능한 요인', divider='violet')
+st.header('교정 불가능한 요인', divider='rainbow')
 st.markdown(
     """
     #### 연령
@@ -53,7 +53,7 @@ st.markdown(
 )
 
 
-st.header('교정 가능한 요인', divider='violet')
+st.header('교정 가능한 요인', divider='rainbow')
 st.markdown("#### 고혈압")
 with st.container(border=True):
     st.write(

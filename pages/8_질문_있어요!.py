@@ -25,7 +25,7 @@ st.sidebar.page_link("pages/8_질문_있어요!.py", label="😎 제가 답해�
 st.sidebar.page_link("pages/10_커뮤니티.py", label="🌍 커뮤니티")
 
 
-st.title("질문 있어요!")
+st.title("제가 답해드릴게요!")
 st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)  # 공간 추가
 st.markdown("""
             간단한 질문은 챗봇이 도와드릴 수 있어요! 💪😎  

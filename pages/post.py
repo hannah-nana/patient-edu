@@ -105,13 +105,13 @@ if 'post_id' in query_params:
                 if st.button("게시물 삭제"):
                     delete_post()
 
-            st.header(row.get('제목', '제목 없음'), divider="violet")
+            st.header(row.get('제목', '제목 없음'), divider="rainbow")
             st.write(row.get('내용', '내용 없음'))
 
             st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)  # 공간 추가
 
             # 댓글 표시
-            st.subheader("댓글창",divider="orange")
+            st.subheader("댓글창",divider="red")
             st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)  # 공간 추가
 
             # "댓글 작성하기" 버튼을 댓글창과 댓글 사이에 배치

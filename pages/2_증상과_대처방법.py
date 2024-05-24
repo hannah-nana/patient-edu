@@ -25,7 +25,7 @@ st.title("뇌졸중의 증상과 대처방법")
 
 st.markdown("<div style='height: 30px;'></div>", unsafe_allow_html=True)  # 공간 추가
 
-st.header('뇌졸중의 증상', divider='violet')
+st.header('뇌졸중의 증상', divider='rainbow')
 with st.container(border=True):
     st.image('./static/sym1.png')
     st.image('./static/sym2.png')
@@ -34,7 +34,7 @@ with st.container(border=True):
     st.image('./static/sym5.png')
 
 
-st.header('뇌졸중 증상이 나타났을 때 대처법', divider='violet')
+st.header('뇌졸중 증상이 나타났을 때 대처법', divider='rainbow')
 st.markdown(
     """
 - 뇌졸중은 치료에 있어서 골든타임이 매우 중요합니다.
@@ -44,7 +44,7 @@ st.markdown(
 st.image('./static/sym6.png', caption='뇌졸중 발생 시 프로토콜')
 st.image('./static/sym7.png', caption='뇌졸중 증상이 사라졌는데요?')
 
-st.header('의식장애 시 행동요령', divider='violet')
+st.header('의식장애 시 행동요령', divider='rainbow')
 
 st.markdown("### 🟢이렇게 해주세요!🟢")
 st.image('./static/sym8.png',width=500)
