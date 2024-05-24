@@ -7,8 +7,6 @@ st.set_page_config(
 st.title("뇌졸중의 증상과 대처방법")
 
 
-
-
 st.header('뇌졸중의 증상', divider='rainbow')
 with st.container(border=True):
     st.image('./static/sym1.png')

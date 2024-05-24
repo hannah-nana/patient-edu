@@ -5,7 +5,6 @@ st.set_page_config(
     page_icon="./static/thumbnail.jpg"
 )
 st.title("뇌졸중의 위험요인🫡")
-import streamlit as st
 
 
 st.markdown(
